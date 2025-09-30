@@ -21,3 +21,14 @@ while True:
 
     else:
         print("Item not available.")
+
+for item in cart:
+    total= total+ groceries[item]
+
+print("you bought: ", cart )
+print("total= ", total)
+
+if total > 10:
+    print("You spent a lot!")
+else:
+    print("You spent a little!")
